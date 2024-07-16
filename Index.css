@@ -1,0 +1,67 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 175, 131);
+    font-family: Arial;
+}
+.Main {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    text-align:left;
+    
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+p {
+    font-size: 20px;
+    color: gray;
+    margin: 0px;
+}
+.Email_area{
+    display: flex;
+    margin-bottom:10px;
+}
+
+.Email{
+    font-family:Calibri;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.Input {
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 30px); /* Trừ đi kích thước của biểu tượng và khoảng cách */
+    box-sizing: border-box; 
+    color: black;
+}
+button{
+    text-align: center;
+    background-color: rgb(60, 176, 139);
+    height: 30px;
+    width: 100%;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5%;
+      
+}
+
+.submit{
+    text-align:center;
+}
+.Layout{
+    box-shadow: 65px 5px 15px 15px #266b45;
+}
+
